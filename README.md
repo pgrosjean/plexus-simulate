@@ -4,7 +4,7 @@
 # Installation
 ```bash
 git clone https://github.com/pgrosjean/plexus-simulate.git
-cd plexus
+cd plexus-simulate
 bash setup_mamba.sh
 conda activate plexus_simulate
 pip install -e .
