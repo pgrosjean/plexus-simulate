@@ -59,4 +59,4 @@ plot_calcium_traces_and_save(F[:, start_idx:], "#8a508f", sampling_freq, './simu
 
 
 ### Simulating example high-content screening plate
-Example of generating a zarr file to match the input to the plexus model can be found at [here]()
+Example of generating a zarr file to match the input to the plexus model can be found in the notebook [here](https://github.com/pgrosjean/plexus-simulate/blob/main/notebooks/simulate_multivariate_hawkes_zarr_file.ipynb)
