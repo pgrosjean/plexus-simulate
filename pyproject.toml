@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68.2.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plexus-simulate"
+version = "0.0.1"
+description = "plexus-simulate - Tools for simulating GCaMP activity traces"
+authors = [
+    { name = "Parker Grosjean", email = "parker.grosjean@gmail.com" }
+]
+license = {text = "MIT"}
+urls = { "Homepage" = "https://github.com/pgrosjean/plexus-simulate" }
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.10"
+dependencies = [
+    "oasis-deconv>=0.2.0",
+    "matplotlib>=3.8.0",
+    "numpy",
+    "networkx",
+    "seaborn>=0.13.2",
+    "tqdm>=4.66.1",
+    "zarr>=2.16.1",
+    "scipy==1.14.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
